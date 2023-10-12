@@ -52,7 +52,7 @@ h1 {
 
 p {
   font-family: "Indie Flower", cursive;
-  font-size: 3vw;
+  font-size: 3vh;
   color: #83a95c;
 }
 
@@ -62,7 +62,7 @@ p {
 
 button {
   font-family: "Tilt Neon", sans-serif;
-  font-size: 3vw;
+  font-size: 2rem;
   padding: 0 10px;
   background-color: #e9c496;
   color: #944e6c;
@@ -84,6 +84,10 @@ footer {
   img {
     width: 20vw;
     min-width: 80px;
+  }
+
+  button {
+    font-size: 1.5rem;
   }
 
   h1 {
@@ -113,6 +117,11 @@ footer {
   footer {
     font-size: small;
   }
+
+  button {
+    font-size: 1rem;
+  }
+
   .container {
     margin-top: 2vh;
     width: 60vw;
