@@ -4,11 +4,11 @@ document.querySelector(".img1").setAttribute("src", "images/dice" + randomNumber
 document.querySelector(".img2").setAttribute("src", "images/dice" + randomNumber2 +".png");
 
 if (randomNumber1 === randomNumber2) {
-document.querySelector("h1").textContent = "Remis!";
+document.querySelector("h1").textContent = "Draw!";
 } else if (randomNumber1 > randomNumber2) {
-document.querySelector("h1").innerHTML = "🚩 Gracz 1 wygrywa!";
+document.querySelector("h1").innerHTML = "🚩 Player 1 wins!";
 } else {
-document.querySelector("h1").innerHTML = "Gracz 2 wygrywa! 🚩";
+document.querySelector("h1").innerHTML = "Player 2 wins! 🚩";
 }
 
 const refreshButton = document.querySelector(".refresh-button");
